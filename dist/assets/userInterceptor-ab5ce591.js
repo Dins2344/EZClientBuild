@@ -1,0 +1,1 @@
+import{a as r}from"./envConfig-25a527f2.js";const o=r.create({baseURL:"http://localhost:4000"});o.interceptors.request.use(e=>{const t=localStorage.getItem("token");return t&&(e.headers.Authorization=`Bearer ${t}`),e},e=>Promise.reject(e));export{o as a};
