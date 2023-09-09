@@ -1,0 +1,1 @@
+import{j as e,O as r}from"./index-eb407973.js";import{H as s}from"./header-80d614d6.js";import{u as n}from"./useIsOnline-6c8f3268.js";const a=()=>n()?e.jsxs(e.Fragment,{children:[e.jsx(s,{}),e.jsx(r,{})]}):e.jsx(e.Fragment,{children:e.jsx("p",{children:"your offline"})});export{a as default};
